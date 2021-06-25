@@ -1,20 +1,19 @@
 <template>
   <component :is="type" class="container">
-    <slot/>
+    <slot />
   </component>
 </template>
 
 <script>
-
-export default {
-  name: "Container",
-  props: {
-    type: {
-      type: String,
-      default: "div",
+  export default {
+    name: "Container",
+    props: {
+      type: {
+        type: String,
+        default: "div",
+      },
     },
-  },
-}
+  }
 </script>
 
 <style lang="scss" scoped>
@@ -22,17 +21,18 @@ export default {
   @import "~assets/scss/config";
 
   .container {
-    padding: 0;
-    margin: 0 auto; 
-    max-width: 1312px;
+    padding: 0 64px;
+    margin: 0 auto;
+    max-width: 1440px;
 
     @include respond-to(xl) {
       max-width: 100%;
-      padding: 0 64px;
     }
+
     @include respond-to(lg) {
       padding: 0 32px;
     }
+
     @include respond-to(sm) {
       padding: 0 16px;
     }

@@ -24,7 +24,7 @@
           description: 'A turnkey, self-service solution that lets you protect your customers’ workloads by recovering their IT systems and applications utilizing the Acronis cloud infrastructure.',
           link: '#'
         },
-         itemsFour: [{
+        itemsFour: [{
             icon: 'advantagesOne',
 
             description: 'With Acronis Files Connect, Macs connect to and mount file shares on Windows file servers and NAS as native AFP volumes. This allows Mac users to continue using the same tools.'
@@ -35,7 +35,7 @@
             description: `<a href="#">With Acronis Files Connect</a>, Macs connect to and mount file shares on Windows file servers and NAS as native AFP volumes. This allows Mac users to continue using the same tools.`
           },
         ],
-         itemsThree: [{
+        itemsThree: [{
             name: 'AFP Connection to File Shares',
             description: 'With Acronis Files Connect, Macs connect to and mount file shares on Windows file servers and NAS as native AFP volumes. This allows Mac users to continue using the same tools.'
           },
@@ -115,5 +115,9 @@
 
   svg {
     display: block;
+  }
+
+  body>* {
+    box-sizing: border-box;
   }
 </style>
