@@ -81,12 +81,11 @@
     @import "~assets/scss/mixins";
 
     .advantage-list {
-        padding: 100px 0;
+        padding: 64px 0;
         display: flex;
 
         @include respond-to(md) {
             flex-wrap: wrap;
-            padding: 64px 0;
         }
 
         &__col {
